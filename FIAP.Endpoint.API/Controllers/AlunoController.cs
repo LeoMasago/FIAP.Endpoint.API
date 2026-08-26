@@ -20,5 +20,13 @@ namespace FIAP.Endpoint.API.Controllers
         {
             return Ok(_context.Alunos);
         }
+
+        //GET: api/v1/alunos/{id}
+        [HttpGet("{id:int}")]
+        public IActionResult GetById(int id)
+        {
+            var aluno = _context.Alunos.FirstOrDefault(a => a.Id == id);
+            return aluno is not null ? Ok(aluno) : NotFound();
+        }
     }
 }
