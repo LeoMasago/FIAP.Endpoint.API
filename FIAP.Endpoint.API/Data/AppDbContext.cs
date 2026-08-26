@@ -16,16 +16,16 @@ namespace FIAP.Endpoint.API.Data
             aluno1.Curso = "Engenharia de Software";
 
             Aluno aluno2 = new Aluno();
-            aluno1.Id = 2;
-            aluno1.Nome = "Luiz Henrique";
-            aluno1.Email = "luiz.henrique@fiap.com.br";
-            aluno1.Curso = "Engenharia de Software";
+            aluno2.Id = 2;
+            aluno2.Nome = "Luiz Henrique";
+            aluno2.Email = "luiz.henrique@fiap.com.br";
+            aluno2.Curso = "Engenharia de Software";
 
             Aluno aluno3 = new Aluno();
-            aluno1.Id = 3;
-            aluno1.Nome = "Léo Masago";
-            aluno1.Email = "leo.masago@fiap.com.br";
-            aluno1.Curso = "Engenharia de Software";
+            aluno3.Id = 3;
+            aluno3.Nome = "Léo Masago";
+            aluno3.Email = "leo.masago@fiap.com.br";
+            aluno3.Curso = "Engenharia de Software";
 
             Alunos.Add(aluno1);
             Alunos.Add(aluno2);
